@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stunning Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Hero Section -->
+  <section id="hero" class="h-screen bg-gradient-to-br from-indigo-600 via-purple-700 to-pink-600 flex items-center justify-center text-center px-4">
+    <div data-aos="zoom-in" class="space-y-6">
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight">Welcome to the Future</h1>
+      <p class="text-xl text-gray-200">Smooth scroll. Responsive Design. Stunning Visuals.</p>
+      <a href="#about" class="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold transition transform hover:scale-105">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-4">About Our Mission</h2>
+      <p class="text-lg text-gray-300">We design powerful digital experiences using motion, visuals, and code. Our aim is to inspire and convert through immersive interfaces and bold design decisions.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 px-6 bg-gray-800" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 glass">
+        <lord-icon
+          src="https://cdn.lordicon.com/gqdnbnwt.json"
+          trigger="loop"
+          delay="200"
+          style="width:60px;height:60px">
+        </lord-icon>
+        <h3 class="text-2xl font-semibold mt-4">Smooth Scroll</h3>
+        <p class="text-gray-300">Experience inertia and fluidity like never before.</p>
+      </div>
+      <div class="p-6 glass">
+        <lord-icon
+          src="https://cdn.lordicon.com/tqywkdcz.json"
+          trigger="loop"
+          delay="200"
+          style="width:60px;height:60px">
+        </lord-icon>
+        <h3 class="text-2xl font-semibold mt-4">Responsive UI</h3>
+        <p class="text-gray-300">Built with Tailwind CSS and mobile-first principles.</p>
+      </div>
+      <div class="p-6 glass">
+        <lord-icon
+          src="https://cdn.lordicon.com/slkvcfos.json"
+          trigger="loop"
+          delay="200"
+          style="width:60px;height:60px">
+        </lord-icon>
+        <h3 class="text-2xl font-semibold mt-4">Visual Design</h3>
+        <p class="text-gray-300">SVGs, gradients, and Lottie animations to grab attention.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual Parallax Section -->
+  <section id="visual" class="relative py-20 px-6 bg-fixed bg-center bg-cover" style="background-image: url('https://source.unsplash.com/1600x900/?technology,abstract');">
+    <div class="glass p-12 max-w-4xl mx-auto text-center" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4">Feel the Depth</h2>
+      <p class="text-gray-200">Using parallax, background blending and glassmorphism for an unforgettable experience.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 px-6 bg-gray-800 text-center" data-aos="fade-up">
+    <h2 class="text-4xl font-semibold mb-10">What People Say</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+      <div class="glass p-6">
+        <p class="text-gray-300 italic">“Absolutely stunning design and ultra smooth interactions. I was amazed.”</p>
+        <p class="mt-4 font-semibold text-white">— Alex, Designer</p>
+      </div>
+      <div class="glass p-6">
+        <p class="text-gray-300 italic">“Responsive, fast, and visually appealing. It raised our conversions 2x.”</p>
+        <p class="mt-4 font-semibold text-white">— Riya, Marketer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="py-20 px-6 bg-gradient-to-r from-purple-600 to-indigo-700 text-center" data-aos="zoom-in">
+    <h2 class="text-4xl font-bold mb-6">Ready to Elevate Your Brand?</h2>
+    <a href="#" class="inline-block bg-white text-black px-8 py-3 rounded-full font-semibold transition hover:scale-110">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-gray-500">© 2025 Abhishek Web DEV. All Rights Reserved.</footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
